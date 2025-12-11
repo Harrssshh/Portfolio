@@ -12,9 +12,29 @@ const Contact = () => {
     message: "",
   });
 
-  const handleSubmit = (e) => {
+  // ✅ UPDATED handleSubmit (Formspree working)
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    alert("Thanks for reaching out! This is a demo form.");
+
+    try {
+      const res = await fetch("https://formspree.io/f/xrbnolav", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (res.ok) {
+        alert("Message sent! I'll get back to you soon 😊");
+        setFormData({ name: "", email: "", message: "" });
+      } else {
+        alert("Something went wrong while sending your message. Please try again.");
+      }
+    } catch (error) {
+      alert("Network error. Please check your connection and try again.");
+    }
   };
 
   const handleChange = (e) => {
@@ -96,14 +116,14 @@ const Contact = () => {
                   <Linkedin size={20} />
                 </motion.a>
                 <motion.a
-                 href="https://mail.google.com/mail/?view=cm&fs=1&to=harshdangi208@gmail.com"
-                 target="_blank"
-                 rel="noopener noreferrer"
-                 className="social-icon"
-                 whileHover={{ scale: 1.1, y: -3 }}
-                 whileTap={{ scale: 0.9 }}
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=harshdangi208@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="social-icon"
+                  whileHover={{ scale: 1.1, y: -3 }}
+                  whileTap={{ scale: 0.9 }}
                 >
-                 <Mail size={18} />
+                  <Mail size={18} />
                 </motion.a>
               </div>
             </div>

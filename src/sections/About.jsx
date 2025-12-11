@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import profileImage from "../assets/profile.jpg";
+import profileImage from "/profile.jpg";
+
 const skills = [
   { name: "HTML5", icon: "🌐" },
   { name: "CSS3", icon: "🎨" },
@@ -21,6 +22,7 @@ const skills = [
 const About = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const profileImage = "/profile.jpg";
 
   return (
     <section id="about" className="relative" ref={ref}>

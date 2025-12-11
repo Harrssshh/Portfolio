@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import ProfileImage from "../assets/profile.jpg";
-
+import profileImage from "../assets/profile.jpg";
 const skills = [
   { name: "HTML5", icon: "🌐" },
   { name: "CSS3", icon: "🎨" },

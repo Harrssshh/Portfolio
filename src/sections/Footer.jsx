@@ -17,7 +17,7 @@ const Footer = () => {
               HD
             </motion.a>
             <p className="text-muted-foreground text-sm flex items-center gap-1 justify-center md:justify-start">
-              Built with <Heart size={14} className="text-primary" /> by Harsh
+              Built by Harsh
               Dangi
             </p>
           </div>

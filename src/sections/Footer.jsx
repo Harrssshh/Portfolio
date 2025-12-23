@@ -16,10 +16,7 @@ const Footer = () => {
             >
               HD
             </motion.a>
-            <p className="text-muted-foreground text-sm flex items-center gap-1 justify-center md:justify-start">
-              Built by Harsh
-              Dangi
-            </p>
+            
           </div>
 
           <div className="flex gap-3">

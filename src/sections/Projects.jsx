@@ -11,7 +11,7 @@ const projects = [
     image: "🛒",
     tech: ["React", "Node.js", "MongoDB", "Stripe","cloudinary"],
     github: "https://github.com/Harrssshh/Chapter-Xchange",
-    Live: "https://chapter-xchange.vercel.app/",
+    demo: "https://chapter-xchange.vercel.app/",
   },
 
   {
@@ -23,15 +23,6 @@ const projects = [
     github: "https://github.com/Harrssshh/full-stack-chatApp",
     demo: "",
   },
-   {
-    title: "Task Management App",
-    description:
-      "A collaborative task management application with real-time updates, drag-and-drop interface, and team collaboration features.",
-    image: "✅",
-    tech: ["React", "nodejs", "Tailwind", "DnD Kit","JWT"],
-    github: "https://github.com",
-    Live: "https://mobile-app-three-rust.vercel.app/",
-  },
   {
     title: "Vita-Train-AI",
     description:
@@ -39,7 +30,16 @@ const projects = [
     image: "🏋️",
     tech: ["React", "Node.js", "MongoDB", "Firebase","groq"],
     github: "https://github.com/Harrssshh/Vita-Train-AI",
-    Live: "https://vita-train-ai.vercel.app/",
+    demo: "https://vita-train-ai.vercel.app/",
+  },
+   {
+    title: "Task Management App",
+    description:
+      "A collaborative task management application with real-time updates, drag-and-drop interface, and team collaboration features.",
+    image: "✅",
+    tech: ["React", "nodejs", "Tailwind", "DnD Kit","JWT"],
+    github: "https://github.com",
+    demo: "https://mobile-app-three-rust.vercel.app/",
   },
 ];
 

@@ -11,7 +11,7 @@ const projects = [
     image: "🛒",
     tech: ["React", "Node.js", "MongoDB", "Stripe","cloudinary"],
     github: "https://github.com/Harrssshh/Chapter-Xchange",
-    demo: "https://chapter-xchange.vercel.app/",
+    Live: "https://chapter-xchange.vercel.app/",
   },
 
   {
@@ -30,7 +30,16 @@ const projects = [
     image: "✅",
     tech: ["React", "nodejs", "Tailwind", "DnD Kit","JWT"],
     github: "https://github.com",
-    demo: "https://mobile-app-three-rust.vercel.app/",
+    Live: "https://mobile-app-three-rust.vercel.app/",
+  },
+  {
+    title: "Vita-Train-AI",
+    description:
+    "Vita Train AI is an AI-powered fitness assistant designed to help users improve their health and fitness through personalized workout plans, nutrition guidance, and progress tracking. It uses smart algorithms to provide customized training recommendations, making fitness guidance accessible anytime without needing a personal trainer.",
+    image: "🏋️",
+    tech: ["React", "Node.js", "MongoDB", "Firebase","groq"],
+    github: "https://github.com/Harrssshh/Vita-Train-AI",
+    Live: "https://vita-train-ai.vercel.app/",
   },
  
 ];

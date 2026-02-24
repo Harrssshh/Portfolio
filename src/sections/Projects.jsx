@@ -41,7 +41,6 @@ const projects = [
     github: "https://github.com/Harrssshh/Vita-Train-AI",
     Live: "https://vita-train-ai.vercel.app/",
   },
- 
 ];
 
 const ProjectCard = ({ project, index, isInView }) => {

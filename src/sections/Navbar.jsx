@@ -55,7 +55,7 @@ const Navbar = () => {
             </motion.a>
           ))}
           <motion.a
-            href="/resume.pdf"
+            href="/HARSH_DANGI_RESUME.pdf"
             className="btn-primary text-sm"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

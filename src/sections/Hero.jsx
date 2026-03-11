@@ -89,7 +89,7 @@ const Hero = () => {
             className="flex flex-wrap gap-4"
           >
             <motion.a
-              href="/resume.pdf"
+              href="/RESUME.pdf"
               className="btn-primary flex items-center gap-2"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}

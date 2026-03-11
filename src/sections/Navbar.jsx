@@ -93,7 +93,7 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <a href="/resume.pdf" className="btn-primary text-sm text-center">
+            <a href="/RESUME.pdf" className="btn-primary text-sm text-center">
               Resume
             </a>
           </div>

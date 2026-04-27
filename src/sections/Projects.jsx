@@ -4,16 +4,7 @@ import { useRef } from "react";
 import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
-  {
-    title: "Revuzen AI — Autonomous PR Review Agent",
-    description:"An autonomous AI agent that watches GitHub for new Pull Requests, analyzes the code with an LLM, automatically applies fixes, and streams every step live to a real-time dashboard.",
-    image: "🤖",
-    tech: ["Node.js", "Express", "Prisma", "Socket.IO", "Redis","Python", "FastAPI", "Groq LLaMA 3.1","React", "Vite", "Docker", "GitHub Webhooks"],
-    github: "https://github.com/Akshatsainiaks/AI-PR-REVIEWER",
-    demo: "https://revuzenai.site",
-
-
-  },
+ 
   {
     title: "E-Commerce Platform",
     description:

@@ -9,7 +9,16 @@ const GithubIcon = ({ className }: { className?: string }) => (
 );
 
 
-const projects = [
+interface Project {
+  title: string;
+  image: string;
+  description: string;
+  tech: string[];
+  github?: string;
+  demo?: string;
+}
+
+const projects: Project[] = [
   {
     title: "E-Commerce Platform",
     image: "🛒",
@@ -44,7 +53,7 @@ const projects = [
   },
 ];
 
-const TiltCard = ({ project }: { project: any }) => {
+const TiltCard = ({ project }: { project: Project }) => {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
 

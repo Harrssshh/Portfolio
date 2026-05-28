@@ -23,7 +23,6 @@ export default function ScrollyCanvas() {
   useEffect(() => {
     // Pre-create all image elements and start downloading instantly
     const loadedImages: HTMLImageElement[] = [];
-    let loadedCount = 0;
 
     for (let i = 0; i < FRAME_COUNT; i++) {
       const img = new Image();
@@ -31,8 +30,6 @@ export default function ScrollyCanvas() {
       img.src = `/sequence/frame_${frameNum}_delay-0.066s.webp`;
 
       img.onload = () => {
-        loadedCount++;
-        
         // Instantly draw the first frame as soon as it loads to guarantee zero layout shift or wait time
         if (i === 0) {
           setFirstFrameLoaded(true);
